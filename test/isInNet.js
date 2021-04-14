@@ -4,7 +4,7 @@
  */
 
 var assert = require('assert');
-var isInNet = require('../isInNet');
+var isInNet = require('../lib/isInNet');
 
 describe('isInNet(host, pattern, mask)', function () {
 

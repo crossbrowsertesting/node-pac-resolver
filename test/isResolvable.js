@@ -4,7 +4,7 @@
  */
 
 var assert = require('assert');
-var isResolvable = require('../isResolvable');
+var isResolvable = require('../lib/isResolvable');
 
 describe('isResolvable(host)', function () {
 

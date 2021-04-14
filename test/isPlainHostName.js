@@ -4,7 +4,7 @@
  */
 
 var assert = require('assert');
-var isPlainHostName = require('../isPlainHostName');
+var isPlainHostName = require('../lib/isPlainHostName');
 
 describe('isPlainHostName(host)', function () {
 

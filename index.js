@@ -14,18 +14,18 @@ var degenerator = require('degenerator');
  * Built-in PAC functions.
  */
 
-var dateRange = require('./dateRange');
-var dnsDomainIs = require('./dnsDomainIs');
-var dnsDomainLevels = require('./dnsDomainLevels');
-var dnsResolve = require('./dnsResolve');
-var isInNet = require('./isInNet');
-var isPlainHostName = require('./isPlainHostName');
-var isResolvable = require('./isResolvable');
-var localHostOrDomainIs = require('./localHostOrDomainIs');
-var myIpAddress = require('./myIpAddress');
-var shExpMatch = require('./shExpMatch');
-var timeRange = require('./timeRange');
-var weekdayRange = require('./weekdayRange');
+var dateRange = require('./lib/dateRange');
+var dnsDomainIs = require('./lib/dnsDomainIs');
+var dnsDomainLevels = require('./lib/dnsDomainLevels');
+var dnsResolve = require('./lib/dnsResolve');
+var isInNet = require('./lib/isInNet');
+var isPlainHostName = require('./lib/isPlainHostName');
+var isResolvable = require('./lib/isResolvable');
+var localHostOrDomainIs = require('./lib/localHostOrDomainIs');
+var myIpAddress = require('./lib/myIpAddress');
+var shExpMatch = require('./lib/shExpMatch');
+var timeRange = require('./lib/timeRange');
+var weekdayRange = require('./lib/weekdayRange');
 
 /**
  * Module exports.

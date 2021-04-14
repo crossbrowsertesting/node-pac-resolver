@@ -4,7 +4,7 @@
  */
 
 var assert = require('assert');
-var shExpMatch = require('../shExpMatch');
+var shExpMatch = require('../lib/shExpMatch');
 
 describe('shExpMatch(str, shexp)', function () {
 

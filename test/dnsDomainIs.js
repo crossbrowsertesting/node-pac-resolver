@@ -4,7 +4,7 @@
  */
 
 var assert = require('assert');
-var dnsDomainIs = require('../dnsDomainIs');
+var dnsDomainIs = require('../lib/dnsDomainIs');
 
 describe('dnsDomainIs(host, domain)', function () {
 

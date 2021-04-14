@@ -4,7 +4,7 @@
  */
 
 var assert = require('assert');
-var weekdayRange = require('../weekdayRange');
+var weekdayRange = require('../lib/weekdayRange');
 var vanillaGetUTCDay = Date.prototype.getUTCDay;
 var vanillaGetDay = Date.prototype.getDay;
 

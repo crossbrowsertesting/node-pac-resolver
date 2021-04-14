@@ -4,7 +4,7 @@
  */
 
 var assert = require('assert');
-var localHostOrDomainIs = require('../localHostOrDomainIs');
+var localHostOrDomainIs = require('../lib/localHostOrDomainIs');
 
 describe('localHostOrDomainIs(host, hostdom)', function () {
 

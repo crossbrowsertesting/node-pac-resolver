@@ -4,7 +4,7 @@
  */
 
 var assert = require('assert');
-var dnsDomainLevels = require('../dnsDomainLevels');
+var dnsDomainLevels = require('../lib/dnsDomainLevels');
 
 describe('dnsDomainLevels(host)', function () {
 

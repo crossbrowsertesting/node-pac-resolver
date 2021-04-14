@@ -5,7 +5,7 @@
 
 var isIP = require('net').isIP;
 var assert = require('assert');
-var dnsResolve = require('../dnsResolve');
+var dnsResolve = require('../lib/dnsResolve');
 
 describe('dnsResolve(host)', function () {
 

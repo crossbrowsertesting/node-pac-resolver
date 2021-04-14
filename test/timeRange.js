@@ -4,7 +4,7 @@
  */
 
 var assert = require('assert');
-var timeRange = require('../timeRange');
+var timeRange = require('../lib/timeRange');
 var vanillaGetHours = Date.prototype.getHours;
 var vanillaGetMinutes = Date.prototype.getMinutes;
 var vanillaGetSeconds = Date.prototype.getSeconds;

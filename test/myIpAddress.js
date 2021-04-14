@@ -5,7 +5,7 @@
 
 var isIP = require('net').isIP;
 var assert = require('assert');
-var myIpAddress = require('../myIpAddress');
+var myIpAddress = require('../lib/myIpAddress');
 
 describe('myIpAddress()', function () {
 
